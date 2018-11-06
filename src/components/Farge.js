@@ -10,7 +10,11 @@ class Farge extends Component {
     }
     change() {
         this.setState({color:"red"});
+        if(this.state.color == "red"){
+            this.setState({color:"black"});
+        }
     }
+
     render() {
         
         
